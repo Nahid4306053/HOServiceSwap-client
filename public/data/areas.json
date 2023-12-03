@@ -1,0 +1,123 @@
+ [
+    {
+      "id": 1,
+      "name": "Dhaka",
+      "coordinates": {
+        "lat": 23.8103,
+        "lng": 90.4125
+      }
+    },
+    {
+      "id": 2,
+      "name": "Chittagong",
+      "coordinates": {
+        "lat": 22.3475,
+        "lng": 91.8123
+      }
+    },
+    {
+      "id": 3,
+      "name": "Khulna",
+      "coordinates": {
+        "lat": 22.8456,
+        "lng": 89.5403
+      }
+    },
+    {
+      "id": 4,
+      "name": "Rajshahi",
+      "coordinates": {
+        "lat": 24.3745,
+        "lng": 88.6042
+      }
+    },
+    {
+      "id": 5,
+      "name": "Sylhet",
+      "coordinates": {
+        "lat": 24.899,
+        "lng": 91.8711
+      }
+    },
+    {
+      "id": 6,
+      "name": "Barisal",
+      "coordinates": {
+        "lat": 22.701,
+        "lng": 90.3535
+      }
+    },
+    {
+      "id": 7,
+      "name": "Comilla",
+      "coordinates": {
+        "lat": 23.4682,
+        "lng": 91.1722
+      }
+    },
+    {
+      "id": 8,
+      "name": "Narayanganj",
+      "coordinates": {
+        "lat": 23.6135,
+        "lng": 90.5029
+      }
+    },
+    {
+      "id": 9,
+      "name": "Gazipur",
+      "coordinates": {
+        "lat": 23.9998,
+        "lng": 90.4203
+      }
+    },
+    {
+      "id": 10,
+      "name": "Jessore",
+      "coordinates": {
+        "lat": 23.1696,
+        "lng": 89.2137
+      }
+    },
+    {
+      "id": 11,
+      "name": "Bogra",
+      "coordinates": {
+        "lat": 24.8487,
+        "lng": 89.3774
+      }
+    },
+    {
+      "id": 12,
+      "name": "Cox's Bazar",
+      "coordinates": {
+        "lat": 21.4272,
+        "lng": 92.0058
+      }
+    },
+    {
+      "id": 13,
+      "name": "Rangpur",
+      "coordinates": {
+        "lat": 25.7469,
+        "lng": 89.2482
+      }
+    },
+    {
+      "id": 14,
+      "name": "Mymensingh",
+      "coordinates": {
+        "lat": 24.7466,
+        "lng": 90.3905
+      }
+    },
+    {
+      "id": 15,
+      "name": "Narshingdi",
+      "coordinates": {
+        "lat": 23.9161,
+        "lng": 90.7188
+      }
+    }
+  ]
+

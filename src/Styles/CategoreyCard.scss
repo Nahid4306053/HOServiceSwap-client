@@ -1,0 +1,17 @@
+@import "App.scss";
+
+.catgorey_card {
+  .cat_img {
+    img {
+      @include transition(0.3s);
+      @include transform-scale(1);
+    }
+  }
+}
+.catgorey_card:hover {
+  .cat_img {
+    img {
+      @include transform-scale(1.1);
+    }
+  }
+}

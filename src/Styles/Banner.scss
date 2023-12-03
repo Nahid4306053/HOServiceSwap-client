@@ -1,0 +1,56 @@
+@import "App";
+
+.banneritem{
+
+  background: linear-gradient(to right ,#dcfce7dc 50% ,#0000004a);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+  *{
+    opacity: 0;
+  }
+  h1{
+    @include transition(.8s);
+    @include translatey(100px)
+  }
+  p{
+    @include transition(1s);
+    @include translatey(150px)
+  }
+  .button-serv{
+    display: block;
+    @include transition(1.5s);
+    @include translatey(200px)
+  }
+} 
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: #000000af;
+  color: #ffffff !important;
+  font-size: 20px !important;
+  
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 20px;
+}
+
+.Bannerswiper{
+  .swiper-slide-active{
+    .banneritem{
+      *{
+        opacity: 1;
+      }
+      h1{
+        @include translatey(0px)
+      }
+      p{
+        @include translatey(0px)
+      }
+      .button-serv{
+        @include translatey(0px)
+      }
+    }
+  }
+}

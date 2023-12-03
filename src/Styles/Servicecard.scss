@@ -1,0 +1,34 @@
+@import "App.scss";
+
+.service_card {
+
+  figure {
+    img {
+      @include transform-scale(1);
+      @include transition(0.3s);
+    }
+  }
+  @include transition(0.3s);
+  .author {
+    @include transition(0.3s);
+    opacity: 0;
+    top: 0px;
+    clip-path: polygon(50% 0%, 90% 39%, 90% 99%, 10% 100%, 10% 40%);
+  }
+  .clipshape {
+     opacity: .7;               
+    clip-path: polygon(100% 0%, 100% 100%, 0 100%, 71% 64%);
+  }
+}
+.service_card:hover {
+  figure {
+    img {
+      @include transform-scale(1.1);
+    }
+  }
+  @include transition(0.3s);
+  .author {
+    top: -110px;
+    opacity: 1;
+  }
+}

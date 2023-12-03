@@ -1,0 +1,27 @@
+@import "./App.scss";
+
+.DropParent {
+  .desktop_dropmanue {
+    position: absolute;
+    top: -500px;
+    left: 0px;
+    opacity: 0;
+    @include transition(0.3s);
+    @include transform-scale(0)
+  }
+  li {
+    padding: 0px 10px;
+    @include transition(0.3s);
+  }
+
+}
+.DropParent:hover {
+
+  .desktop_dropmanue {
+    @include transform-scale(1);
+    top: 60px;
+    left: 0px;
+    opacity: 1;
+    @include transition(0.3s);
+  }
+}
